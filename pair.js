@@ -50,7 +50,7 @@ router.get('/', async (req, res) => {
                     
 				const sockses = await sock.sendMessage(sock.user.id, { document: sessionsock, mimetype: `application/json`, fileName: `creds.json` });
                
-				await sock.sendMessage(sock.user.id, { text: `> 👨‍💻 *MY 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢* ⚖️\n\n*⚡ηαмє -: ᴍᴀɴᴜʟ ᴏꜰꜰɪᴄɪᴀʟ*\n*⚡αgє -: 16*\n*⚡ωєв* -: https://manulofficial.vercel.app/\n*⚡ηυмвєя* -: +94742274855\n*⚡уσυтυвє* -: https://www.youtube.com/@ManulOfficialTech\n\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ -: *⚡©ᴍᴀɴᴜʟ ᴏꜰꜰɪᴄɪᴀʟ 2024💗*
+				await sock.sendMessage(sock.user.id, { text: `> ⭐✅*MY 𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢* ⚖️\n\n*🧬ηαмє -: 𝚆𝙰𝚃𝚂𝙾𝙽 ᴏꜰꜰɪᴄɪᴀʟ*\n*⚡αgє -: 20*\n*🧬ωєв* -: https://my-website-watsonxd6kwg.vercel.app\n*👑ηυмвєя* -: +263789622747\n*🧬уσυтυвє* -: https://www.youtube.com/@WATSON-TECH\n\n> ᴘᴏᴡᴇʀᴇᴅ ʙʏ -: *👑©𝗪𝗔𝗧𝗦𝗢𝗡𝗫𝗗  2024🛰️*
 
 ` }, {quoted: sockses});
         await delay(100);
